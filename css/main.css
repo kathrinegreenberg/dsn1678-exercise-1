@@ -1,0 +1,88 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  font: normal 100%/1.5 sans-serif;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.caption {
+	font-style: italic;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #FFFFFF;
+	position: absolute;
+	bottom: 0;
+}
+
+.subs {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #999999;
+	font-size: 90%;
+}
+
+.stats {
+	font-size: 110%;
+}
+
+.nomarg {
+	margin: 0;
+}
+
+.margin {
+	margin: 2rem;
+}
+
+.posrel {
+	position: relative;
+}
+
+.border td {
+	border-right: 1px solid gray;
+	padding-right: 10rem;
+	padding-left: 1rem;
+}
+
+.headersize {
+	font-size: 120%;
+}
+
+.nopad {
+	padding-left: 0;
+}
+
+.border {
+	border-collapse: collapse;
+}
+
+.border td:last-child {
+	border: 0;
+}
+
+.border td:first-child {
+	padding-left: 0;
+}
